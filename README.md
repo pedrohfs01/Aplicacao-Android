@@ -12,8 +12,11 @@ Foi produzido com Android Studio e na linguagem Java, com o banco de dados em te
 Funcionalidades e descrição do projeto:
 
 *Sistema de Login/Registro
+
 *Sistema de Depósito/Saque
+
 *Sistema de transferências entre contas
+
 *Sistema de crédito(como se fosse um cheque especial)
 
 
