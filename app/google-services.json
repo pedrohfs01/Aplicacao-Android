@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "102714195275",
+    "firebase_url": "https://bancofernandes-2dff6.firebaseio.com",
+    "project_id": "bancofernandes-2dff6",
+    "storage_bucket": "bancofernandes-2dff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102714195275:android:93ff80721b149d3023bcce",
+        "android_client_info": {
+          "package_name": "com.example.bancofernandes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102714195275-6vpqaiu7m0nbt6ma1jfu1b2qf4j4gvrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bancofernandes",
+            "certificate_hash": "959fa2853d8137d11557dfe86d2ddd95a97306cf"
+          }
+        },
+        {
+          "client_id": "102714195275-8mbkn21jra36qpt6k7gts9vefo2irv3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqTz2CR7SbS0cpxt1lwiZKe8nrw2BwTp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102714195275-8mbkn21jra36qpt6k7gts9vefo2irv3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

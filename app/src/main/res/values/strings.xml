@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Banco Fernandes</string>
+
+    //MENU
+    <string name="action_settings">Settings</string>
+    <string name="action_sair">Sair</string>
+</resources>
