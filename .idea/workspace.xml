@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cb0cd16-44de-4225-8d02-6ba760b20b1a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Banco Fernandes" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Banco Fernandes" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Banco Fernandes" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gQwOVLSiuw0YtNx5uqGQJWb1Vt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-2114614547">
+      <recent name="com.example.bancofernandes" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.bancofernandes" />
+    </key>
+    <key name="android.template.707735510">
+      <recent name="com.example.bancofernandes" />
+    </key>
+    <key name="android.template.502174226">
+      <recent name="com.example.bancofernandes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.bancofernandes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BancoFernandes [signingReport]">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BancoFernandes [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BancoFernandes [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cb0cd16-44de-4225-8d02-6ba760b20b1a" name="Default Changelist" comment="" />
+      <created>1598060092111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598060092111</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1602008374524">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="317" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1602008374524" />
+    <state x="308" y="222" width="411" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598483605913">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="308" y="222" width="411" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1024.728@0.0.1024.728" timestamp="1598483605913" />
+    <state x="242" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599239795205">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="242" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1599239795205" />
+    <state x="92" y="117" key="AndroidCreateResourceFileDialog" timestamp="1599236812237">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="92" y="117" key="AndroidCreateResourceFileDialog/0.0.1024.728@0.0.1024.728" timestamp="1599236812237" />
+    <state x="292" y="117" key="FileChooserDialogImpl" timestamp="1604523958735">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="117" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1604523958735" />
+    <state width="980" height="174" key="GridCell.Tab.0.bottom" timestamp="1598986340991">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="980" height="174" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1598986340991" />
+    <state width="980" height="174" key="GridCell.Tab.0.center" timestamp="1598986340991">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="980" height="174" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1598986340991" />
+    <state width="980" height="174" key="GridCell.Tab.0.left" timestamp="1598986340991">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="980" height="174" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1598986340991" />
+    <state width="980" height="174" key="GridCell.Tab.0.right" timestamp="1598986340991">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="980" height="174" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1598986340991" />
+    <state x="13" y="0" key="SettingsEditor" timestamp="1598897400315">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="13" y="0" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1598897400315" />
+    <state x="328" y="140" key="chooseDestDirectoryDialog" timestamp="1598483557178">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="328" y="140" key="chooseDestDirectoryDialog/0.0.1024.728@0.0.1024.728" timestamp="1598483557178" />
+    <state x="208" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1604523366290">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="208" y="186" key="com.intellij.ide.util.TipDialog/0.0.1024.728@0.0.1024.728" timestamp="1604523366290" />
+    <state x="168" y="157" key="run.anything.popup" timestamp="1603940846033">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="168" y="157" key="run.anything.popup/0.0.1024.728@0.0.1024.728" timestamp="1603940846033" />
+    <state x="175" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603937252613">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="175" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1024.728@0.0.1024.728" timestamp="1603937252613" />
+    <state x="297" y="51" key="svn.repositoryBrowser" timestamp="1604523986031">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="297" y="51" key="svn.repositoryBrowser/0.0.1024.728@0.0.1024.728" timestamp="1604523986031" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-30/android.jar!/android/view/View.class</url>
+          <line>3227</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

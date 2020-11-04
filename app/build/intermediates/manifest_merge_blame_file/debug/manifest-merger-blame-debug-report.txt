@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bancofernandes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2bb30986eb01d0fb69a14c3a9d2697fd\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2bb30986eb01d0fb69a14c3a9d2697fd\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:7:5-25:19
+20        android:allowBackup="true"
+20-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0aa40219e6b120ccb05a6b024c88f0\core-1.3.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/ic_launcher"
+23-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:9:9-45
+24        android:label="@string/app_name"
+24-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@drawable/ic_launcher_round"
+25-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:11:9-56
+26        android:supportsRtl="true"
+26-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:12:9-35
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:13:9-40
+28        <activity android:name="com.example.bancofernandes.Menu_Transferir" />
+28-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:14:9-62
+28-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:14:19-50
+29        <activity android:name="com.example.bancofernandes.Menu_Operacoes" />
+29-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:15:9-52
+29-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:15:19-49
+30        <activity android:name="com.example.bancofernandes.MenuPrincipal" />
+30-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:16:9-51
+30-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:16:19-48
+31        <activity android:name="com.example.bancofernandes.Registro" />
+31-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:17:9-46
+31-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:17:19-43
+32        <activity android:name="com.example.bancofernandes.MainActivity" >
+32-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:18:9-24:20
+32-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:18:19-47
+33            <intent-filter>
+33-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:19:13-23:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:20:17-69
+34-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:22:17-77
+36-->C:\Users\Lenovo\AndroidStudioProjects\BancoFernandes\app\src\main\AndroidManifest.xml:22:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <service
+40-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:29:9-35:19
+41            android:name="com.google.firebase.components.ComponentDiscoveryService"
+41-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:30:13-84
+42            android:directBootAware="true"
+42-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+43            android:exported="false" >
+43-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:31:13-37
+44            <meta-data
+44-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:32:13-34:85
+45                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+45-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:33:17-109
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.firebase:firebase-database:19.4.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:34:17-82
+47            <meta-data
+47-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:36:13-38:85
+48                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+48-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:37:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:38:17-82
+50            <meta-data
+50-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2bb30986eb01d0fb69a14c3a9d2697fd\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+51                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+51-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2bb30986eb01d0fb69a14c3a9d2697fd\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2bb30986eb01d0fb69a14c3a9d2697fd\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\9e69635284d7d197960a7d37935e58c4\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+54                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+54-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\9e69635284d7d197960a7d37935e58c4\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\9e69635284d7d197960a7d37935e58c4\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+56        </service>
+57
+58        <activity
+58-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:24:9-31:50
+59            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+59-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:25:13-85
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:26:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:27:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:28:13-44
+63            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+63-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:29:13-102
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\878384607d8083e508111dafbcd38e75\jetified-firebase-auth-19.3.2\AndroidManifest.xml:30:13-72
+65        <activity
+65-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+66            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+66-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+67            android:excludeFromRecents="true"
+67-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+70        <!--
+71            Service handling Google Sign-In user revocation. For apps that do not integrate with
+72            Google Sign-In, this service will never be started.
+73        -->
+74        <service
+74-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+75            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+75-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+76            android:exported="true"
+76-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+77            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+77-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+78            android:visibleToInstantApps="true" />
+78-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1f0b78848e955c3a2b419ef24af89fff\jetified-play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+79
+80        <provider
+80-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+81            android:name="com.google.firebase.provider.FirebaseInitProvider"
+81-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+82            android:authorities="com.example.bancofernandes.firebaseinitprovider"
+82-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+84            android:exported="false"
+84-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+85            android:initOrder="100" />
+85-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b53108ec39d9732359576999f06f4ec9\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\657da8ef6b2f4608ce1ed280aaefdbe1\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\657da8ef6b2f4608ce1ed280aaefdbe1\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\657da8ef6b2f4608ce1ed280aaefdbe1\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\657da8ef6b2f4608ce1ed280aaefdbe1\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+91
+92        <receiver
+92-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+93            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+93-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+94            android:enabled="true"
+94-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+95            android:exported="false" >
+95-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+96        </receiver>
+97
+98        <service
+98-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+99            android:name="com.google.android.gms.measurement.AppMeasurementService"
+99-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+100            android:enabled="true"
+100-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+101            android:exported="false" />
+101-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+102        <service
+102-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+103            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+103-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+106            android:permission="android.permission.BIND_JOB_SERVICE" />
+106-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5e80f3429a9142db1af42d6430f90f30\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bcd994ee620c2b87d14faa85d1a9d6f1\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bcd994ee620c2b87d14faa85d1a9d6f1\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bcd994ee620c2b87d14faa85d1a9d6f1\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+111    </application>
+112
+113</manifest>
